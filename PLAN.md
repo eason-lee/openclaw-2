@@ -1,21 +1,14 @@
 # PLAN
 
-## Use
-
-Create or replace this file before any task that will likely take more than 3 steps.
-Keep it short, concrete, and update it as the task progresses.
-
 ## Current Task
-
-<one-line task description>
+将仓库工作分支保持为 `master`，撤销刚才的 `main` 迁移方向。
 
 ## Steps
-
-1. Inspect the current state and constraints.
-2. Make the minimum necessary changes.
-3. Verify the result.
-4. Commit or summarize the final state.
+1. 检查当前分支与未提交修改。
+2. 将本地分支从 `main` 改回 `master`。
+3. 确认与 `origin/master` 的跟踪关系。
+4. 说明远端 `main` 仍存在，但可以暂时不处理。
 
 ## Progress Notes
 
-- Add short updates here when a step is completed.
+- Reverting branch naming back to `master` per user request.
