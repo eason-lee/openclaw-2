@@ -35,3 +35,34 @@ When given a ClawHub URL, extract the skill slug first and pass the slug to `cla
 - Related Files: `skills/self-improving-agent/SKILL.md`
 
 ---
+
+## [ERR-20260311-002] clawhub-rate-limit
+
+**Logged**: 2026-03-11T12:55:06Z
+**Priority**: medium
+**Status**: pending
+**Area**: infra
+
+### Summary
+ClawHub install requests can fail with a registry rate limit even when the slug is valid.
+
+### Error
+```text
+Rate limit exceeded
+Error: Rate limit exceeded
+```
+
+### Context
+- Command attempted: `clawhub install clawdhub`
+- Working directory: `/Users/lisen/.openclaw/workspace`
+- This happened immediately after earlier ClawHub installs in the same session
+
+### Suggested Fix
+Retry later, authenticate if the registry supports higher limits for signed-in users, or install from the source repository if available.
+
+### Metadata
+- Reproducible: unknown
+- Related Files: `TOOLS.md`
+- See Also: ERR-20260311-001
+
+---

@@ -1,14 +1,14 @@
 # PLAN
 
 ## Current Task
-将仓库工作分支保持为 `master`，撤销刚才的 `main` 迁移方向。
+将本地记忆文件导入 mem9。
 
 ## Steps
-1. 检查当前分支与未提交修改。
-2. 将本地分支从 `main` 改回 `master`。
-3. 确认与 `origin/master` 的跟踪关系。
-4. 说明远端 `main` 仍存在，但可以暂时不处理。
+1. 扫描 workspace 中可导入的 memory/session 文件。
+2. 选取最近的候选文件并映射到 mem9 的导入类型。
+3. 执行导入并检查返回的任务状态。
+4. 汇总已导入文件和后续建议。
 
 ## Progress Notes
 
-- Reverting branch naming back to `master` per user request.
+- Starting mem9 import flow from local workspace files.
