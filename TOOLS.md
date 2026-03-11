@@ -35,6 +35,10 @@ Things like:
 
 Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
 
+## Local Gotchas
+
+- ClawHub install links are not valid `clawhub install` arguments; extract the skill slug first, then install by slug.
+
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.

@@ -1,10 +1,21 @@
 # PLAN
 
+## Use
+
+Create or replace this file before any task that will likely take more than 3 steps.
+Keep it short, concrete, and update it as the task progresses.
+
 ## Current Task
-整理 workspace 里的可追踪文件与运行态/安装态文件边界。
+
+<one-line task description>
 
 ## Steps
-1. 检查当前是否已有 `.gitignore`，确认需要新增的忽略规则。
-2. 写入最小必要的 `.gitignore`，忽略运行态和安装态文件。
-3. 从 git 索引中移除已误纳入版本控制、但应被忽略的文件。
-4. 提交本次整理结果，并汇总保留/忽略策略。
+
+1. Inspect the current state and constraints.
+2. Make the minimum necessary changes.
+3. Verify the result.
+4. Commit or summarize the final state.
+
+## Progress Notes
+
+- Add short updates here when a step is completed.
